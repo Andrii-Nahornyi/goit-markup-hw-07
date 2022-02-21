@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAIA,AAAA,IAAI,AAAC,CACJ,gBAAgB,CALT,MAAM,CAMb,KAAK,CALO,IAAI,CAQhB",
+    "sources": [
+        "../sass/main.scss"
+    ],
+    "names": [],
+    "file": "main.min.css"
+}
