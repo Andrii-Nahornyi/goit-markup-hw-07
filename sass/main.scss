@@ -1,11 +1,16 @@
-$color: orange;
-$main-whith: 100%;
-
-
-body {
-	background-color: $color;
-	width: $main-whith;
-
-	$secondaryColor: red	;
-}
-
+@import "./utils/variables";
+@import "./utils/normalize";
+@import "./utils/reset";
+@import "./utils/visually-hidden";
+@import "./utils/body";
+@import "./componets/page-header";
+@import "./componets/hero";
+@import "./componets/features";
+@import "./componets/about";
+@import "./componets/employee";
+@import "./componets/client";
+@import "./componets/footer";
+@import "./componets/footer-form";
+@import "./componets/project";
+@import "./componets/project__overlay";
+@import "./componets/modal";

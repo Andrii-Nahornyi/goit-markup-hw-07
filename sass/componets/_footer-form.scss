@@ -1,0 +1,50 @@
+.footer-form {
+	margin-left: auto;
+}
+
+.footer-form__field {
+	position: relative;
+
+	display: flex;
+	width: 100%;
+	height: 50px;
+}
+
+.footer-form__input {
+	width: 358px;
+	height: 100%;
+
+	color: $white-site-color;
+	background-color: $footer-background-color;
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	box-sizing: border-box;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+	border-radius: 4px;
+	padding-left: 16px;
+	margin-right: 12px;
+
+	transition: border-color 250ms $timing-function;
+}
+
+.footer-form__input::placeholder {
+	line-height: 1.25;
+	color: $footer-link-color;
+}
+
+.footer-form__input:focus {
+	border-color: $accent-color;
+	outline: none;
+}
+
+.footer-form__btn {
+	display: flex;
+	padding-top: 10px;
+	padding-right: 28px;
+	padding-bottom: 10px;
+	padding-left: 28px;
+}
+
+.btn__text {
+	display: inline-block;
+	margin-right: 10px;
+}

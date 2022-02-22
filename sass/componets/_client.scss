@@ -1,0 +1,28 @@
+.client-item + .client-item {
+	margin-left: 30px;
+}
+
+.client-item__link {
+	width: 170px;
+	height: 92px;
+
+	border: 1px solid $icons-color;
+	border-radius: 4px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	transition: border-color 250ms $icons-color;
+}
+
+.client-item__link:hover,
+.client-item__link:focus {
+	border-color: $accent-color;
+	outline: none;
+}
+
+.client-item__link:hover .icon,
+.client-item__link:focus .icon {
+	fill: $accent-color;
+}

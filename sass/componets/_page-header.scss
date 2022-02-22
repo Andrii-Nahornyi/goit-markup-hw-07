@@ -1,0 +1,156 @@
+.page-header{
+	border-bottom: 1px solid #ECECEC;
+}
+
+.section {
+	padding-top: 94px;
+	padding-bottom: 94px;
+}
+
+.container {
+	width: 1200px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-top: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.section__title {
+	font-size: 36px;
+	line-height: 1.17;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.page-header__container {
+	display: flex;
+	align-items: center;
+}
+
+.link {
+	text-decoration: none;
+}
+
+.logo {
+	display: inline-block;
+	font-family: Raleway, sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.19;
+}
+
+.page-header__logo--dark {
+	margin-right: 93px;
+	padding-top: 24px;
+	padding-bottom: 24px;
+
+	color: $logo-color;
+}
+
+.nav__list {
+	margin-left: auto;
+}
+
+.nav__item + .nav__item {
+	margin-left: 50px;
+}
+
+.link-animation {
+	position: relative;
+}
+
+.link-animation::after {
+	position: absolute;
+	left: 0;
+	bottom: -1%;
+
+	content: '';
+	display: inline-block;
+	width: 100%;
+	height: 4px;
+	
+	background-color: currentColor;
+	border-radius: 2px;
+	border-width: 0;
+
+	transform: scaleX(0);
+	transition: transform 250ms $timing-function;
+}
+
+.link-animation:hover::after,
+.link-animation:focus::after {
+	transform: scaleX(1);
+}
+
+.nav__link.accent {
+	position: relative;
+}
+
+.nav__link.accent::after {
+	position: absolute;
+	left: 0;
+	bottom: -1%;
+
+	content: '';
+	display: inline-block;
+	width: 100%;
+	height: 4px;
+
+	background-color: currentColor;
+
+	border-radius: 2px;
+	border-width: 0;
+}
+
+
+.nav__link {
+	display: block;
+	padding-top: 32px;
+	padding-bottom: 32px;
+
+	color: $title-text-color;
+	font-weight: 500;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+
+	transition: color 250ms $timing-function;
+}
+
+.nav__link:hover,
+.nav__link:focus {
+	color: $accent-color;
+}
+
+.nav__contacts {
+	display: block;
+	padding-top: 32px;
+	padding-bottom: 32px;
+
+	color: $text-color;
+	font-weight: 500;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.nav__icon {
+	margin-right: 10px;
+
+	fill: currentColor;
+
+	transition: color 250ms $timing-function;
+}
+
+.nav__contacts:hover,
+.nav__contacts:focus {
+	color: $accent-color;
+}
+
+.accent {
+	color: $accent-color;
+}
