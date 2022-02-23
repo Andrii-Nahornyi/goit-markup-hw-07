@@ -14,15 +14,10 @@
 	justify-content: center;
 
 	transition: border-color 250ms $icons-color;
-}
 
-.client-item__link:hover,
-.client-item__link:focus {
-	border-color: $accent-color;
-	outline: none;
-}
-
-.client-item__link:hover .icon,
-.client-item__link:focus .icon {
-	fill: $accent-color;
+	&:hover,
+ 	&:focus {
+		border-color: $accent-color;
+		outline: none;
+	}
 }

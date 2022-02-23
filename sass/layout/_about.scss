@@ -4,10 +4,10 @@
 
 .about__item {
 	width: calc((100% - 60px)/3);
-}
 
-.about__item:not(:nth-child(3n)) {
-	margin-right: 30px;
+	&:not(:nth-child(3n)) {
+		margin-right: 30px;
+	}
 }
 
 .about__overlay {

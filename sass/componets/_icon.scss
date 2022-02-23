@@ -1,0 +1,21 @@
+.icon {
+	fill: $icons-color;
+
+	transition: fill 250ms $timing-function;
+
+	.social-item__link:hover &,
+	.social-item__link:focus & {
+		fill: $white-site-color;
+	}
+
+	.client-item__link:hover &,
+	.client-item__link:focus & {
+		fill: $accent-color;
+	}
+}
+
+.icon--light {
+	fill: $white-site-color;
+
+	transition: fill 250ms $timing-function;
+}

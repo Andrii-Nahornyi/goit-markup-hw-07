@@ -1,0 +1,20 @@
+.address__list {
+	list-style: none;
+}
+
+.address__item:not(:nth-last-child(-n + 1)) {
+	margin-bottom: 9px;
+}
+
+.address__link {
+	color: $white-site-color;
+	font-style: normal;
+	line-height: 1.71;
+
+	transition: color 250ms $timing-function;
+
+	&:hover,
+	&:focus {
+		color: $accent-color;
+	}
+}

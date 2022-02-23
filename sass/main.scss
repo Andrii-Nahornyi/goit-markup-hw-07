@@ -2,15 +2,24 @@
 @import "./utils/normalize";
 @import "./utils/reset";
 @import "./utils/visually-hidden";
-@import "./utils/body";
-@import "./componets/page-header";
-@import "./componets/hero";
-@import "./componets/features";
-@import "./componets/about";
-@import "./componets/employee";
-@import "./componets/client";
-@import "./componets/footer";
-@import "./componets/footer-form";
-@import "./componets/project";
-@import "./componets/project__overlay";
+@import "./utils/common";
+
+@import "./componets/section";
+@import "./componets/container";
+@import "./componets/logo";
+@import "./componets/btn";
+@import "./componets/social-item";
+@import "./componets/icon";
+@import "./componets/address";
 @import "./componets/modal";
+
+@import "./layout/page-header";
+@import "./layout/hero";
+@import "./layout/features";
+@import "./layout/about";
+@import "./layout/employee";
+@import "./layout/client";
+@import "./layout/footer";
+@import "./layout/footer-form";
+@import "./layout/filter-list";
+@import "./layout/project-item";

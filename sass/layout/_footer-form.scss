@@ -24,11 +24,11 @@
 	margin-right: 12px;
 
 	transition: border-color 250ms $timing-function;
-}
 
-.footer-form__input::placeholder {
-	line-height: 1.25;
-	color: $footer-link-color;
+	&::placeholder {
+		line-height: 1.25;
+		color: $footer-link-color;
+	}
 }
 
 .footer-form__input:focus {
